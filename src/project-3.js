@@ -7,82 +7,155 @@ class Project3 extends LitElement {
     header: { type: String },
   }
 
+  static get tag() {
+    return 'badge-list';
+}
+
+static get properties()
+{
+    return {
+        badges: {type: Array},
+        name: {type:String},
+    }
+}
+
   static styles = css`
-    :host {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      font-size: calc(10px + 2vmin);
-      color: #1a2b42;
-      max-width: 960px;
-      margin: 0 auto;
-      text-align: center;
-      background-color: var(--project-3-background-color);
-    }
+    
+    
+    .wrapper {
+  width: 400px;
+  border: 2px solid black;
+  display: inline-flex;
+}
 
-    main {
-      flex-grow: 1;
-    }
+.image {
+  width: 400px;
+}
+.header {
+    line-height: 1em;
+    font-size: 50px;
+    font-family: "Monument Extended Ultrabold";
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
 
-    .logo {
-      margin-top: 36px;
-      animation: app-logo-spin infinite 20s linear;
-    }
+.header h4 {
+  margin: 16px;
+  font-style: normal;
+}
 
-    @keyframes app-logo-spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
+.buttons button:focus,
+.buttons button:hover {
+  background-color: rgba(200, 0, 50, 0.5);
+}
 
-    .app-footer {
-      font-size: calc(12px + 0.5vmin);
-      align-items: center;
-    }
+.buttons button:active {
+  background-color: rgba(50, 0, 200, 0.5);
+}
 
-    .app-footer a {
-      margin-left: 5px;
-    }
-  `;
+.buttons {
+  display: inline block;
+}
 
-  constructor() {
-    super();
-    this.header = 'My app';
+button {
+  padding: 12px;
+  font-size: 32px;
+}
+name {
+    line-height: 1.2em;
+    font-size: 40px;
+    fill: rgb(59, 59, 59);
+    font-family: "Bryso Letter Gothic Bold";
+    color: rgb(130, 73, 73);
+    text-align: left;
+}
+.details summary {
+  line-height: 1.2em;
+    font-size: 40px;
+    fill: rgb(59, 59, 59);
+    font-family: "Bryso Letter Gothic Bold";
+    color: rgb(130, 73, 73);
+}
+
+.dupe {
+  background-color: white;
+  display: inline-block;
+  padding: 8px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 80px;
+  font-weight: bold;
+  box-shaddow: 10px 5px 5px #ccc;
+  text-decoration: none;
+  font-family: Papyrus;
+}
+
+.changecolor {
+  background-color: white;
+  display: inline-block;
+  padding: 8px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 80px;
+  font-weight: bold;
+  box-shaddow: 10px 5px 5px #ccc;
+  text-decoration: none;
+}
+
+.newtitle {
+  background-color: white;
+  display: inline-block;
+  padding: 8px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 80px;
+  font-weight: bold;
+  box-shaddow: 10px 5px 5px #ccc;
+  text-decoration: none;
+}
+
+.delete {
+  background-color: white;
+  display: inline-block;
+  padding: 8px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 80px;
+  font-weight: bold;
+  box-shaddow: 10px 5px 5px #ccc;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .wrapper {
+    font-weight: normal;
   }
-
-  render() {
-    return html`
-      <main>
-        <div class="logo"><img alt="open-wc logo" src=${logo} /></div>
-        <h1>${this.header}</h1>
-
-        <p>Edit <code>src/Project3.js</code> and save to reload.</p>
-        <a
-          class="app-link"
-          href="https://open-wc.org/guides/developing-components/code-examples/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code examples
-        </a>
-      </main>
-
-      <p class="app-footer">
-        🚽 Made with love by
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/open-wc"
-          >open-wc</a
-        >.
-      </p>
-    `;
+  .wrapper .header h3 {
+    font-size: 12px;
+  }
+  .wrapper .header h4 {
+    font-size: 10px !important;
+  }
+  details {
+    display: none;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    background-color: pink;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    background-color: purple;
+  }
+}
+
+    `;
+}
+
 
 customElements.define('project-3', Project3);
