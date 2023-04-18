@@ -143,16 +143,6 @@ name {
     display: none;
   }
 }
-@media only screen and (max-width: 1200px) {
-  .wrapper {
-    background-color: pink;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .wrapper {
-    background-color: purple;
-  }
-}
 
     `;
 }
