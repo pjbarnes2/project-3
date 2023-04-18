@@ -20,16 +20,22 @@ static get properties()
 }
 
   static styles = css`
-    
-    
-    .wrapper {
+  
+  .wrapper {
   width: 400px;
   border: 2px solid black;
   display: inline-flex;
+  background-color: black;
 }
 
 .image {
   width: 400px;
+}
+.companylogo
+{
+  display: block;
+  margin-left: auto;
+  width: 100px;
 }
 .header {
     line-height: 1em;
@@ -37,7 +43,7 @@ static get properties()
     font-family: "Monument Extended Ultrabold";
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
 }
 
@@ -46,23 +52,7 @@ static get properties()
   font-style: normal;
 }
 
-.buttons button:focus,
-.buttons button:hover {
-  background-color: rgba(200, 0, 50, 0.5);
-}
 
-.buttons button:active {
-  background-color: rgba(50, 0, 200, 0.5);
-}
-
-.buttons {
-  display: inline block;
-}
-
-button {
-  padding: 12px;
-  font-size: 32px;
-}
 name {
     line-height: 1.2em;
     font-size: 40px;
@@ -71,61 +61,14 @@ name {
     color: rgb(130, 73, 73);
     text-align: left;
 }
-.details summary {
-  line-height: 1.2em;
-    font-size: 40px;
-    fill: rgb(59, 59, 59);
-    font-family: "Bryso Letter Gothic Bold";
-    color: rgb(130, 73, 73);
-}
-
-.dupe {
-  background-color: white;
-  display: inline-block;
-  padding: 8px 8px;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 80px;
-  font-weight: bold;
-  box-shaddow: 10px 5px 5px #ccc;
-  text-decoration: none;
-  font-family: Papyrus;
-}
-
-.changecolor {
-  background-color: white;
-  display: inline-block;
-  padding: 8px 8px;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 80px;
-  font-weight: bold;
-  box-shaddow: 10px 5px 5px #ccc;
-  text-decoration: none;
-}
-
-.newtitle {
-  background-color: white;
-  display: inline-block;
-  padding: 8px 8px;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 80px;
-  font-weight: bold;
-  box-shaddow: 10px 5px 5px #ccc;
-  text-decoration: none;
-}
-
-.delete {
-  background-color: white;
-  display: inline-block;
-  padding: 8px 8px;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 80px;
-  font-weight: bold;
-  box-shaddow: 10px 5px 5px #ccc;
-  text-decoration: none;
+.summary {
+margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
 }
 
 
