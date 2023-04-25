@@ -256,7 +256,7 @@ margin: 0;
                                                                                 
                                                                             </div>
                                                                         </foreignObject>
-                                                                        <img class="image" src="https://i.kym-cdn.com/entries/icons/mobile/000/043/203/tophercover.jpg" />
+                                                                        
                                                             </g>
                                                         </g>
                                                     </svg>
