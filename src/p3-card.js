@@ -6,7 +6,7 @@ export class P3Card extends LitElement {
 
   static get properties() {
     return {
-      
+    badges: { type: Array },
       name: {
         type: String,
         reflect: true
@@ -16,7 +16,7 @@ export class P3Card extends LitElement {
       name: {type:String},
       summary: {
         type: String,
-      }, 
+      }
     
     }
   }
@@ -106,13 +106,7 @@ margin: 0;
 
     `;
   }
-  constructor() {
-    super();
-    this.name = "Topher";
-    this.summary = "Powerful Being";
-    this.logo = "Cool Guy";
-  
-  }
+ 
 
 
     render() {
