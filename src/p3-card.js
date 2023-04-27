@@ -73,7 +73,7 @@ export class P3Card extends LitElement {
     font-size: 40px;
     fill: rgb(59, 59, 59);
     font-family: "Bryso Letter Gothic Bold";
-    color: rgb(130, 73, 73);
+    color: black;
     text-align: left;
 }
 .summary {
@@ -111,7 +111,25 @@ margin: 0;
 
     render() {
       return html`
+      
     <div class="mt-3" data-v-b2c8125e>
+    <div class ="wrapper">
+<div class="badge">
+    <div class="header">${type.header}
+      <div class="image">
+      <a href=${type.logo}>${type.logo}</a>
+      </div>
+      <div class="name">${type.name}
+      <div>
+        <p class="summary">${type.summary}
+  
+      </p>
+      <div class="logo">
+      <a href=${types.logo}>${type.logo}</a>
+    </div>
+    </div>
+    </div>
+  </div>
     <svg width="1150" height="1500" id="outerSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1150 1500" class="img-fluid" style="vertical-align:top;overflow:visible;max-height:70vh;" data-v-b2c8125e data-v-a09c7bce>
      <svg width="1150" height="1500" id="remix-this" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1150 1500" data-v-b2c8125e data-v-a09c7bce>
         
