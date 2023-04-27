@@ -229,7 +229,7 @@ margin: 0;
                                                                         <g transform="" data-v-b2c8125e data-v-a09c7bce>
                                                                             <foreignObject x="40" y="51" width="1070" height="265" style="line-height:1em;font-size:230px;font-family:'Monument Extended Ultrabold';letter-spacing:0.04em;text-transform:uppercase;color:#ffffff;" data-v-a09c7bce>
                                                                                 <div style="width:100%;height:100%;display:flex;">
-                                                                                    <div xmlns="http://www.w3.org/1999/xhtml" contenteditable="true" style="white-space:pre-wrap;text-align:center;border:0px solid #000000;padding-top:5px;width:100%;"></div>
+                                                                                    
                                                                                 </div>
                                                                             </foreignObject>
                                                                         </g>
@@ -270,7 +270,7 @@ margin: 0;
                                                                     <g data-v-b2c8125e data-v-a09c7bce>
                                                                         <foreignObject x="106" y="1100" width="660" height="300" style="line-height:1.2em;font-size:40px;fill:#3b3b3b;font-family:'Bryso Letter Gothic Bold';color:#000000;" data-v-a09c7bce>
                                                                             <div style="width:100%;height:100%;display:flex;">
-                                                                                <div xmlns="http://www.w3.org/1999/xhtml" contenteditable="true" class="first-line-para" style="white-space:pre-wrap;text-align:left;border:0px solid #000000;padding-top:5px;width:100%;"></div>
+                                                                                
                                                                                 
                                                                             </div>
                                                                         </foreignObject>
