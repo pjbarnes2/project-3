@@ -12,21 +12,20 @@ export default async function handler(request, res) {
         },
 
         {
-            "name": "Bryce",
+            "name": "Mountain",
             "image": "av:games",
-            "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0d/ee/1d/0dee1d6f-a954-20b6-c452-6f3fa8b8eac0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+            "logo": "https://th.bing.com/th/id/OIP.RlM10r9JQv4PHFlh5dLqpgHaEK?w=301&h=180&c=7&r=0&o=5&dpr=2&pid=1.7",
             "summary": "https://docs.aws.amazon.com/cognito/latest/developerguide/tutorials.html", 
-            "header": "Joshua Hantman"
+            "header": "Mountain"
             
 
         },
         {
-            "name": "Sketchy Bryce",
-            "image": ""
-        ,
+            "name": "Dog",
+            "image": "https://www.bing.com/images/search?view=detailV2&ccid=vpENuVG6&id=13DF45E7C8A77844B40526CB43784531EDC80CD3&thid=OIP.vpENuVG6_Ke79c0shGAHMQHaFn&mediaurl=https%3a%2f%2fstatic.businessinsider.com%2fimage%2f5484d9d1eab8ea3017b17e29%2fimage.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.be910db951bafca7bbf5cd2c84600731%3frik%3d0wzI7TFFeEPLJg%26pid%3dImgRaw%26r%3d0&exph=2497&expw=3296&q=dog&simid=608004929648082441&FORM=IRPRST&ck=3D14D93E3089BAA6E3F3BAAAC9C32D2F&selectedIndex=3",
             "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0d/ee/1d/0dee1d6f-a954-20b6-c452-6f3fa8b8eac0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
             "summary": "https://docs.aws.amazon.com/cognito/latest/developerguide/tutorials.html", 
-            "header": "Joshua Hantman"
+            "header": "Dog"
             
 
         },
@@ -36,7 +35,7 @@ export default async function handler(request, res) {
             "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0d/ee/1d/0dee1d6f-a954-20b6-c452-6f3fa8b8eac0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
 
             "summary": "https://docs.aws.amazon.com/cognito/latest/developerguide/tutorials.html", 
-            "header": "Joshua Hantman", 
+            "header": "Shrek", 
             
 
 
