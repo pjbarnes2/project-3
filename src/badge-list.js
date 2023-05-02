@@ -107,9 +107,7 @@ class BadgeList extends LitElement{
     
         ];
     
-        this.logo= new URL('../assets/logo.PNG', import.meta.url).href;
-        this.image= new URL('../assets/Capture.PNG', import.meta.url).href;
-
+       
     }
 
     render() {
