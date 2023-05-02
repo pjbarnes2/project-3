@@ -28,34 +28,32 @@ export class P3Card extends LitElement {
     
     :host{
 
-    display: inline;
+    display: block;
     padding:25px;
     }
   
     .wrapper {
   width: 400px;
-  height: 300;
-  border: 2px solid black;
-  display: inline-flex;
+  height: 400;
+  border: 1px solid black;
+  display: block;
   background-color: black;
-  position:relative;
+
+  
 }
-.body{
-        font-family: sans-serif;
-        background-color: #cfe6f4;
-        text-align: left;
-        display: inline;
-      }
+
 .image {
-  width: 400px;
+  width: 300px;
 }
+
 .logo
 {
-  margin-left: auto;
+  margin-right: auto;
   width: 100px;
   bottom:0;
   right:0;
   position:absolute
+  text-align:right;
 }
 .header {
     line-height: 1em;
@@ -120,7 +118,7 @@ margin: 0;
 
     <div class="mt-3" data-v-b2c8125e>
     
-    <svg width="1150" height="1500" id="outerSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1150 1500" class="img-fluid" style="vertical-align:top;overflow:visible;max-height:70vh;" data-v-b2c8125e data-v-a09c7bce>
+    <svg width="400" height="400" id="outerSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1150 1500" class="img-fluid" style="vertical-align:top;overflow:visible;max-height:70vh;" data-v-b2c8125e data-v-a09c7bce>
      
     <svg width="1150" height="1500" id="remix-this" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1150 1500" data-v-b2c8125e data-v-a09c7bce>
         
