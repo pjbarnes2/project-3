@@ -10,12 +10,12 @@ class BadgeList extends LitElement{
     {
         return {
             types: { type: Array},
-            badges: {type: Array,Reflect:true},
-            name: {type:String,Reflect:true},
-            image:{type:String,Reflect:true},
-            logo:{type:String,Reflect:true},
-            summary:{type:String,Reflect:true},
-            header: {type:String,Reflect:true}
+            badges: {type: Array},
+            name: {type:String},
+            image:{type:String},
+            logo:{type:String},
+            summary:{type:String},
+            header: {type:String}
         };
     }
 
@@ -112,43 +112,22 @@ class BadgeList extends LitElement{
 
     }
 
-    updateType(){
-        const address=new URL('../assets/type.json',import.meta.url).href;
-        fetch(address).then((response)=>{
-        if(response.ok){
-            return response.json()
-        }
-        return [];
-    })
-    .then((data)=>{
-        this.types=data;
-        console.log(data);
-    });
-
- 
-}
-
     render() {
         return html`
-        <div class="numBadges">
-       
-        </div>
         <div class="wrapper">
         ${this.badges.map(
               badge => html`
                 <div class="card">
-                <p3-card
-
-                  name="${badge.name}"
-                  image="${badge.image}" 
-                    summary="${badge.summary}"
-                    logo="${badge.logo}"
-                    header="${badge.header}">
-                    
-                </p3-card> 
-                  </div>
+                    <p3-card
+                        name="${badge.name}"
+                        image="${badge.image}" 
+                        summary="${badge.summary}"
+                        logo="${badge.logo}"
+                        header="${badge.header}"> 
+                    </p3-card> 
+                </div>
               `)}
-              </div>
+        </div>
         
         `;
     }
