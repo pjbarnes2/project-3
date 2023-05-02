@@ -68,9 +68,9 @@ class BadgeList extends LitElement{
     
             {
                 "name": "Mountain",
-                "image": "av:games",
+                "image": "https://www.bing.com/images/search?view=detailV2&ccid=W81yzpMI&id=9C4D4ED21E3C592C474EA6592E81E7E99D74D6F9&thid=OIP.W81yzpMIz1_1wlH5t4peJgHaEo&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5bcd72ce9308cf5ff5c251f9b78a5e26%3frik%3d%252bdZ0nenngS5Zpg%26riu%3dhttp%253a%252f%252fthewowstyle.com%252fwp-content%252fuploads%252f2015%252f02%252fbeautiful-mountain.jpg%26ehk%3d13Qa308guXXwbNR4xV0aKRbk6yDrBr4Y%252fs07UHwUZao%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=mountain+pictures&simid=607993023994276972&FORM=IRPRST&ck=F6666CA3C08A350BAF41DEC8A6FDBE74&selectedIndex=11&ajaxhist=0&ajaxserp=0",
                 "logo": "https://th.bing.com/th/id/OIP.RlM10r9JQv4PHFlh5dLqpgHaEK?w=301&h=180&c=7&r=0&o=5&dpr=2&pid=1.7",
-                "summary": "https://docs.aws.amazon.com/cognito/latest/developerguide/tutorials.html", 
+                "summary": "Tall", 
                 "header": "Mountain"
                 
     
@@ -88,8 +88,8 @@ class BadgeList extends LitElement{
                 "name": "Shrek",
                 "image": "https://preview.redd.it/nvaxpuqwius41.jpg?auto=webp&s=803366717450b2e1afd8d216545578278a7b4564",
                 "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0d/ee/1d/0dee1d6f-a954-20b6-c452-6f3fa8b8eac0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-
-                "summary": "https://docs.aws.amazon.com/cognito/latest/developerguide/tutorials.html", 
+    
+                "summary": "Get out of my swamp", 
                 "header": "Shrek", 
                 
     
