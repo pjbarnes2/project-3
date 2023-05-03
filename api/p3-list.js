@@ -2,12 +2,33 @@ export default async function handler(request, res) {
 
     const badgelist = [
         {
+            
             "name": "Topher",
             "image": "https://i.kym-cdn.com/entries/icons/mobile/000/043/203/tophercover.jpg",
             "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0d/ee/1d/0dee1d6f-a954-20b6-c452-6f3fa8b8eac0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
             "summary": "interesting fella", 
-            "header": "Topher"
-            
+            "header": "Topher",
+            "tvColor": "yellow",
+            "tvAntenna": "blue",
+            "border": "orange",
+            "textColor": "orange",
+            "tvOutline": "pink",
+            "cardColor": "yellow",
+            "topblock1": "pink",
+            "topblock2": "blue",
+            "topblock3": "pink",
+            "topblock4": "blue",
+            "topblock5": "pink",
+            "topblock6": "blue",
+            "topblock7": "pink",
+        
+            "bottomBlock1": "gray",
+            "bottomBlock3": "gray",
+            "bottomBlock5": "gray",
+            "bottomBlock7": "white",
+        
+            "badgeTitleColor": "white",
+        
 
         },
 
