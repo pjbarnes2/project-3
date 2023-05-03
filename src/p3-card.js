@@ -19,7 +19,18 @@ export class P3Card extends LitElement {
       summary: {
         type: String,
         reflect: true
-      }
+      },
+      topblock1: { type: String, Reflect: true},
+      topblock2: { type: String, Reflect: true},
+      topblock3: { type: String, Reflect: true},
+      topblock4: { type: String, Reflect: true},
+      topblock5: { type: String, Reflect: true},
+      topblock6: { type: String, Reflect: true},
+      topblock7: { type: String, Reflect: true},
+      bottomBlock1: { type: String, Reflect: true},
+      bottomBlock3: { type: String, Reflect: true},
+      bottomBlock5: { type: String, Reflect: true},
+      bottomBlock7: { type: String, Reflect: true},
     };
   }
 
@@ -37,8 +48,7 @@ export class P3Card extends LitElement {
   height: 400;
   border: 1px solid black;
   display: block;
-  background-color: black;
-
+  
   
 }
 
