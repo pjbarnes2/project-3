@@ -35,6 +35,7 @@ export class BadgeList extends LitElement{
           textColor: { type: String},
           tvOutline: { type: String},
           cardColor: { type: String},
+          
         };
     }
 
