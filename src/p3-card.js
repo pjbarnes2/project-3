@@ -66,19 +66,14 @@ export class P3Card extends LitElement {
 }
 
 .image {
-  width: 300px;
+  width: 200px;
 }
 
 .logo
 {
- 
   width: 100px;
   height: 100px;
   bottom: 0px;
-  right:0px;
-  position:absolute
-  z-index:2;
-
 }
 
 
@@ -267,7 +262,7 @@ font-style: normal;
                                                                                 <div xmlns="http://www.w3.org/1999/xhtml" contenteditable="true" class="first-line-para" style="white-space:pre-wrap;text-align:left;border:0px solid #000000;padding-top:5px;width:100%;">${this.name}<br>${this.summary}<br>${this.summary2}</div>
                                                                                 
                                                                             </div>
-                                                                        </foreignObject>
+                                                                        </foreignObject> <img class='logo' src='${this.logo}' />    
                                                                         
                                                             </g>
                                                         </g>
@@ -276,7 +271,7 @@ font-style: normal;
                                                 </svg>
 
   
-                                               
+                                 
     </div>
 
     `;
