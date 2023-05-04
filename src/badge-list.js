@@ -15,7 +15,7 @@ export class BadgeList extends LitElement{
             logo:{type:String},
             summary:{type:String},
             header: {type:String},
-            tvAntenna: {type:String},
+
             topblock1: { type: String},
             topblock2: { type: String},
             topblock3: { type: String},
@@ -31,7 +31,6 @@ export class BadgeList extends LitElement{
 
             tvColor: { type: String},
           tvAntenna: {type: String},
-          badgeBorder: { type: String},
           textColor: { type: String},
           cardColor: { type: String},
           headerColor: {type:String},
@@ -119,8 +118,6 @@ export class BadgeList extends LitElement{
                 "summary2": "go outside",
                 "header": "Nature",
                 
-
-
                 "topblock1": "green",
                 "topblock2": "orange",
                 "topblock3": "brown",
@@ -136,7 +133,6 @@ export class BadgeList extends LitElement{
 
                 "tvColor": "green",
                 "tvAntenna": "blue",
-                "border": "orange",
                 "textColor": "white",
                 "cardColor": "blue",
                 "headerColor": "white",
@@ -166,7 +162,6 @@ export class BadgeList extends LitElement{
                 "headerColor": "black",
                 "tvColor": "blue",
                 "tvAntenna": "blue",
-                "border": "black",
                 "textColor": "white",
                 "cardColor": "red",
     
@@ -196,7 +191,6 @@ export class BadgeList extends LitElement{
                 "headerColor": "white",
                 "tvColor": "blue",
                 "tvAntenna": "blue",
-                "border": "orange",
                 "textColor": "black",
                 "cardColor": "orange",
     
@@ -226,7 +220,6 @@ export class BadgeList extends LitElement{
                 "headerColor": "white",
                 "tvColor": "blue",
                 "tvAntenna": "blue",
-                "border": "orange",
                 "textColor": "black",
                 "cardColor": "pink",
     
