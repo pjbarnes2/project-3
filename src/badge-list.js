@@ -24,10 +24,10 @@ export class BadgeList extends LitElement{
             topblock6: { type: String},
             topblock7: { type: String},
 
-            bottomBlock1: { type: String},
-            bottomBlock3: { type: String},
-            bottomBlock5: { type: String},
-            bottomBlock7: { type: String},
+            lowerblock1: { type: String},
+            lowerblock3: { type: String},
+            lowerblock5: { type: String},
+            lowerblock7: { type: String},
 
             tvColor: { type: String},
           tvIntenna: {type: String},
@@ -84,7 +84,7 @@ export class BadgeList extends LitElement{
                 "name": "Topher",
                 "image": "https://i.kym-cdn.com/entries/icons/mobile/000/043/203/tophercover.jpg",
                 "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0d/ee/1d/0dee1d6f-a954-20b6-c452-6f3fa8b8eac0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-                "summary": "interesting fella", 
+                "summary": "god king of the universe", 
                 "summary2": "Y'ALL ALREADY KNOW WHO IT IS",
                 "header": "Topher",
                 "tvColor": "yellow",
@@ -101,10 +101,10 @@ export class BadgeList extends LitElement{
                 "topblock6": "blue",
                 "topblock7": "pink",
             
-                "bottomBlock1": "gray",
-                "bottomBlock3": "gray",
-                "bottomBlock5": "gray",
-                "bottomBlock7": "white",
+                "lowerblock1": "gray",
+                "lowerblock3": "gray",
+                "lowerblock5": "gray",
+                "lowerblock7": "white",
             
                 "badgeTitleColor": "white",
             
@@ -124,10 +124,10 @@ export class BadgeList extends LitElement{
                 "topblock6": "blue",
                 "topblock7": "pink",
             
-                "bottomBlock1": "gray",
-                "bottomBlock3": "gray",
-                "bottomBlock5": "gray",
-                "bottomBlock7": "white",
+                "lowerblock1": "gray",
+                "lowerblock3": "gray",
+                "lowerblock5": "gray",
+                "lowerblock7": "white",
     
             },
             {
@@ -150,10 +150,10 @@ export class BadgeList extends LitElement{
                 "topblock6": "blue",
                 "topblock7": "pink",
             
-                "bottomBlock1": "gray",
-                "bottomBlock3": "gray",
-                "bottomBlock5": "gray",
-                "bottomBlock7": "white",
+                "lowerblock1": "gray",
+                "lowerblock3": "gray",
+                "lowerblock5": "gray",
+                "lowerblock7": "white",
             
                 "badgeTitleColor": "white",
             
@@ -180,10 +180,10 @@ export class BadgeList extends LitElement{
                 "topblock6": "blue",
                 "topblock7": "pink",
             
-                "bottomBlock1": "gray",
-                "bottomBlock3": "gray",
-                "bottomBlock5": "gray",
-                "bottomBlock7": "white",
+                "lowerblock1": "gray",
+                "lowerblock3": "gray",
+                "lowerblock5": "gray",
+                "lowerblock7": "white",
             
                 "badgeTitleColor": "white",
             
@@ -210,10 +210,10 @@ export class BadgeList extends LitElement{
                 "topblock6": "blue",
                 "topblock7": "pink",
             
-                "bottomBlock1": "gray",
-                "bottomBlock3": "gray",
-                "bottomBlock5": "gray",
-                "bottomBlock7": "white",
+                "lowerblock1": "gray",
+                "lowerblock3": "gray",
+                "lowerblock5": "gray",
+                "lowerblock7": "white",
             
                 "badgeTitleColor": "white",
             
