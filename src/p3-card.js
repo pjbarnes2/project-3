@@ -20,6 +20,10 @@ export class P3Card extends LitElement {
         type: String,
         reflect: true
       },
+      summary2: {
+        type: String,
+        reflect:true
+      },
       topblock1: { type: String, Reflect: true},
       topblock2: { type: String, Reflect: true},
       topblock3: { type: String, Reflect: true},
@@ -31,6 +35,12 @@ export class P3Card extends LitElement {
       bottomBlock3: { type: String, Reflect: true},
       bottomBlock5: { type: String, Reflect: true},
       bottomBlock7: { type: String, Reflect: true},
+
+      name: { type: String, Reflect: true},
+      summary: { type: String, Reflect: true},
+      summary2: { type: String, Reflect: true},
+
+
     };
   }
 
@@ -251,7 +261,7 @@ font-style: normal;
                                                                     <g data-v-b2c8125e data-v-a09c7bce>
                                                                         <foreignObject x="106" y="1100" width="660" height="300" style="line-height:1.2em;font-size:40px;fill:#3b3b3b;font-family:'Bryso Letter Gothic Bold';color:#000000;" data-v-a09c7bce>
                                                                             <div style="width:100%;height:100%;display:flex;">
-                                                                                <div xmlns="http://www.w3.org/1999/xhtml" contenteditable="true" class="first-line-para" style="white-space:pre-wrap;text-align:left;border:0px solid #000000;padding-top:5px;width:100%;">${this.eventBadgeAuthor}<br>${this.titleOfAuthor}<br>${this.brandName}</div>
+                                                                                <div xmlns="http://www.w3.org/1999/xhtml" contenteditable="true" class="first-line-para" style="white-space:pre-wrap;text-align:left;border:0px solid #000000;padding-top:5px;width:100%;">${this.name}<br>${this.summary}<br>${this.summary2}</div>
                                                                                 
                                                                             </div>
                                                                         </foreignObject>

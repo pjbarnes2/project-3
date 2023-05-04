@@ -7,6 +7,7 @@ export default async function handler(request, res) {
             "image": "https://i.kym-cdn.com/entries/icons/mobile/000/043/203/tophercover.jpg",
             "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0d/ee/1d/0dee1d6f-a954-20b6-c452-6f3fa8b8eac0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
             "summary": "interesting fella", 
+            "summary2": "YALL ALREADY KNOW WHO IT IS",
             "header": "Topher",
             "tvColor": "yellow",
             "tvAntenna": "blue",

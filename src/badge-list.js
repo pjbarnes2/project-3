@@ -35,7 +35,7 @@ export class BadgeList extends LitElement{
           textColor: { type: String},
           tvOutline: { type: String},
           cardColor: { type: String},
-          
+
         };
     }
 
@@ -75,34 +75,7 @@ export class BadgeList extends LitElement{
     constructor() {
 
         super();
-        this.badges=[];
-    this.tvColor= 'red';
-    this.tvIntenna= 'pink';
-    this.badgeBorder= 'black';
-    this.textColor= 'orange';
-    this.tvOutline= 'grey';
-    this.cardColor= 'white';
-
-    this.topblock1='red';
-    this.topblock2='orange';
-    this.topblock3='yellow';
-    this.topblock4='green';
-    this.topblock5='blue';
-    this.topblock6= 'purple';
-    this.topblock7='pink';
-
-    this.bottomBlock1='green';
-    this.bottomBlock3='green';
-    this.bottomBlock5='green';
-    this.bottomBlock7='green';
-
-    this.badgeTitleColor='white';
-
-    this.eventBadgeTitle='MEDIA';
-    this.eventBadgeAuthor='Jess';
-    this.titleOfAuthor='Professional Coder';
-    this.brandName='Amazing!'
-
+        
     this.logo= new URL('../assets/hax logo.jpg', import.meta.url).href;
     
     this.badges=[
@@ -112,6 +85,7 @@ export class BadgeList extends LitElement{
                 "image": "https://i.kym-cdn.com/entries/icons/mobile/000/043/203/tophercover.jpg",
                 "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0d/ee/1d/0dee1d6f-a954-20b6-c452-6f3fa8b8eac0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
                 "summary": "interesting fella", 
+                "summary2": "Y'ALL ALREADY KNOW WHO IT IS",
                 "header": "Topher",
                 "tvColor": "yellow",
                 "tvAntenna": "blue",
@@ -161,7 +135,7 @@ export class BadgeList extends LitElement{
                 "image": "https://www.lawnstarter.com/blog/wp-content/uploads/2016/11/zoysia-grass.jpg",
                 "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0d/ee/1d/0dee1d6f-a954-20b6-c452-6f3fa8b8eac0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
                 "summary": "https://docs.aws.amazon.com/cognito/latest/developerguide/tutorials.html", 
-                "header": "Dog",
+                "header": "Grass",
                 "tvColor": "yellow",
                 "tvAntenna": "blue",
                 "border": "orange",
