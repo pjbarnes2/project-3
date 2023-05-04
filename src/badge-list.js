@@ -118,7 +118,7 @@ export class BadgeList extends LitElement{
                 "textColor": "orange",
                 "tvOutline": "pink",
                 "cardColor": "yellow",
-                "topblock1": "#335839",
+                "topblock1": "blue",
                 "topblock2": "blue",
                 "topblock3": "pink",
                 "topblock4": "blue",
@@ -136,12 +136,23 @@ export class BadgeList extends LitElement{
             },
     
             {
-                "name": "Mountain",
+                "name": "Nature",
                 "image": "https://th.bing.com/th/id/R.5bcd72ce9308cf5ff5c251f9b78a5e26?rik=%2bdZ0nenngS5Zpg&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f02%2fbeautiful-mountain.jpg&ehk=13Qa308guXXwbNR4xV0aKRbk6yDrBr4Y%2fs07UHwUZao%3d&risl=&pid=ImgRaw&r=0",
                 "logo": "https://th.bing.com/th/id/OIP.RlM10r9JQv4PHFlh5dLqpgHaEK?w=301&h=180&c=7&r=0&o=5&dpr=2&pid=1.7",
                 "summary": "Tall", 
-                "header": "Mountain"
-                
+                "header": "Nature",
+                "topblock1": "green",
+                "topblock2": "orange",
+                "topblock3": "brown",
+                "topblock4": "blue",
+                "topblock5": "pink",
+                "topblock6": "blue",
+                "topblock7": "pink",
+            
+                "bottomBlock1": "gray",
+                "bottomBlock3": "gray",
+                "bottomBlock5": "gray",
+                "bottomBlock7": "white",
     
             },
             {
@@ -156,7 +167,7 @@ export class BadgeList extends LitElement{
                 "textColor": "orange",
                 "tvOutline": "pink",
                 "cardColor": "yellow",
-                "topblock1": "#335839",
+                "topblock1": "orange",
                 "topblock2": "blue",
                 "topblock3": "pink",
                 "topblock4": "blue",
@@ -186,7 +197,7 @@ export class BadgeList extends LitElement{
                 "textColor": "orange",
                 "tvOutline": "pink",
                 "cardColor": "yellow",
-                "topblock1": "#335839",
+                "topblock1": "green",
                 "topblock2": "blue",
                 "topblock3": "pink",
                 "topblock4": "blue",
@@ -216,7 +227,7 @@ export class BadgeList extends LitElement{
                 "textColor": "orange",
                 "tvOutline": "pink",
                 "cardColor": "yellow",
-                "topblock1": "#335839",
+                "topblock1": "grey",
                 "topblock2": "blue",
                 "topblock3": "pink",
                 "topblock4": "blue",
